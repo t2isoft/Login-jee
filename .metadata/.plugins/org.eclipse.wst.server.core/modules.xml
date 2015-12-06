@@ -2,4 +2,7 @@
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Jee-login" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:EBoutiqueV3" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:spring-security-loginform-database" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:helloWorldSpring_20151102" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SpringMVCloginExample" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>

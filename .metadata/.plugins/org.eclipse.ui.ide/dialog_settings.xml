@@ -5,6 +5,10 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Necati  Kelleoglu\Downloads\Jsp_Servlet_Login_Register_Edit_All"/>
+			<item value="C:\Users\Necati  Kelleoglu\Downloads\tutorials-master"/>
+			<item value="C:\Users\Necati  Kelleoglu\Downloads\SpringMVCloginExample"/>
+			<item value="C:\wamp\www\Spring-security-login-with-database"/>
 			<item value="C:\Users\Necati  Kelleoglu\Downloads\eboutique-jpa-hibernate-spring-master"/>
 			<item value="C:\Users\Necati  Kelleoglu\Downloads\Application-bancaire-master\Application-bancaire-master"/>
 		</list>

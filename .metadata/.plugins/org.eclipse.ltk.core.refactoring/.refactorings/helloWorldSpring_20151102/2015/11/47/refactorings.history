@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;index.jsp, login.jsp, logout.jsp, reg.jsp, registration.jsp, success.jsp, welcome.jsp&apos; to &apos;WEB-INF&apos;" description="Move 7 resources to &apos;WEB-INF&apos;" destination="appClientModule/src/main/webapp/WEB-INF" element1="/I-game/src/main/webapp/index.jsp" element2="/I-game/src/main/webapp/login.jsp" element3="/I-game/src/main/webapp/logout.jsp" element4="/I-game/src/main/webapp/reg.jsp" element5="/I-game/src/main/webapp/registration.jsp" element6="/I-game/src/main/webapp/success.jsp" element7="/I-game/src/main/webapp/welcome.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1448186525505" updateReferences="true"/>
+</session>

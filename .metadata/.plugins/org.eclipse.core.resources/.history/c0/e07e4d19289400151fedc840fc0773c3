@@ -1,0 +1,41 @@
+<%@ page import="java.util.Date"%>
+<%@ page import="java.text.DateFormat" %>
+<%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.sql.*" %>
+<%@ page import="java.util.Calendar" %>
+<%
+
+	Calendar cal = Calendar.getInstance();
+	Date dateAujourdhui = new Date();
+	
+    String userid = request.getParameter("uname");    
+    String pwd = request.getParameter("pass");
+    String   regdate = request.getParameter("regdate");
+    
+    SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+   	regdate = formatter.format(regdate);
+   	dateAujourdhui = formatter.format(dateAujourdhui);
+    //get current date time with Date()
+    Date currentTime = cal.getTime();
+    
+    Class.forName("com.mysql.jdbc.Driver");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/i-game",
+            "root", "");
+    Statement st = con.createStatement();
+    ResultSet rs;
+    rs = st.executeQuery("select * from members where uname='" + userid + "' and pass='" + pwd + "'");
+    if (rs.next()) {
+        session.setAttribute("userid", userid);
+        session.setAttribute("pwd", pwd);
+        session.setAttribute("regdate", regdate);
+        
+        //out.println("welcome " + userid);
+        //out.println("<a href='logout.jsp'>Log out</a>");
+        if(currentTime.equals(regdate) || currentTime.before(regdate)){
+        	response.sendRedirect("update");
+        }
+        response.sendRedirect("success");
+    } else {
+        out.println("Invalid password <a href='index'>try again</a>");
+    }
+%>

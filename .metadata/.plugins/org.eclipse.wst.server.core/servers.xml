@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="10000" stop-timeout="15" testEnvironment="true" timestamp="6">
-    <list key="modules" value0="Jee-login::org.eclipse.jst.jee.server:Jee-login::jst.web::2.5" value1="EBoutiqueV3::org.eclipse.jst.jee.server:EBoutiqueV3::jst.web::2.5" value2="spring-security-loginform-database-annotation::org.eclipse.jst.j2ee.server:spring-security-loginform-database-annotation::jst.web::2.4"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server at localhost" name="Tomcat v8.0 Server at localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="10000" stop-timeout="15" testEnvironment="true" timestamp="25">
+    <list key="modules" value0="spring-security-loginform-database::org.eclipse.jst.j2ee.server:spring-security-loginform-database::jst.web::2.4" value1="igame2::org.eclipse.jst.jee.server:igame2::jst.web::2.5" value2="Jsp_Servlet_Login_Register_Edit::org.eclipse.jst.jee.server:Jsp_Servlet_Login_Register_Edit::jst.web::3.1"/>
   </server>
 </servers>
